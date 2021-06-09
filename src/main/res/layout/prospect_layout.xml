@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="11"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Zach Delegrange"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tvInstrument"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Guitar"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvTeacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Roti"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvLessonDays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Thursday"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
